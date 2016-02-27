@@ -1,7 +1,7 @@
 function call(name, value) {
   console.log("Calling", name, value);
   var xhr = new XMLHttpRequest();
-  var url = "https://api.particle.io/v1/devices/53ff6c065075535120151387/" + name;
+  var url = "https://api.particle.io/v1/devices/45002e001147343339383037/" + name;
   xhr.open("POST", url);
   xhr.setRequestHeader("Authorization", "Bearer 88c64f5c7de12db5af94479c92e6b0d5fd9db6dd");
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
